@@ -1,21 +1,17 @@
 {
   "name": "terminal",
-  "private": true,
-  "version": "3.3.1",
+  "private": false,
+  "version": "3.3.2",
   "type": "module",
   "license": "MIT",
   "author": {
-    "name": "Yassine Fathi",
-    "url": "https://fathi.me",
-    "email": "yassine@fathi.me"
-  },
-  "funding": {
-    "type": "Paypal",
-    "url": "https://paypal.me/yfthi"
+    "name": "Cássio Fernando",
+    "url": "https://cassiofernando.com/",
+    "email": "contact@cassiofernando.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/m4tt72/terminal"
+    "url": "https://github.com/cassiofb-dev/terminal"
   },
   "scripts": {
     "dev": "vite --host 0.0.0.0 --port 3333",
@@ -23,9 +19,13 @@
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json"
   },
+  "dependencies": {
+    "ua-parser-js": "^1.0.38"
+  },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^3.0.1",
     "@tsconfig/svelte": "^5.0.2",
+    "@types/ua-parser-js": "^0.7.39",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.32",
     "svelte": "^4.2.8",

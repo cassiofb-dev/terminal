@@ -1,0 +1,20 @@
+export default `
+         -o          o-
+          +hydNNNNdyh+
+        +mMMMMMMMMMMMMm+
+      'dMM$2m:$1NMMMMMMN$2:m$1MMd'
+      hMMMMMMMMMMMMMMMMMMh
+  ..  yyyyyyyyyyyyyyyyyyyy  ..
+.mMMm'MMMMMMMMMMMMMMMMMMMM'mMMm.
+:MMMM-MMMMMMMMMMMMMMMMMMMM-MMMM:
+:MMMM-MMMMMMMMMMMMMMMMMMMM-MMMM:
+:MMMM-MMMMMMMMMMMMMMMMMMMM-MMMM:
+:MMMM-MMMMMMMMMMMMMMMMMMMM-MMMM:
+-MMMM-MMMMMMMMMMMMMMMMMMMM-MMMM-
+ +yy+ MMMMMMMMMMMMMMMMMMMM +yy+
+      mMMMMMMMMMMMMMMMMMMm
+      '/++MMMMh++hMMMM++/'
+          MMMMo  oMMMM
+          MMMMo  oMMMM
+          oNMm-  -mMNs
+`;

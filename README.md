@@ -1,54 +1,39 @@
-# [M4TT72 | Terminal](https://term.m4tt72.com)
+<h1 align="center">
+  Cassio Terminal
+</h1>
 
-A terminal style website
+<h4 align="center">My Web Terminal</h4>
 
-![screenshot](/docs/screenshot.png)
+<p align="center">
+  <a href="#about">About</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#development">Development</a> •
+  <a href="#credits">Credits</a> •
+  <a href="#license">License</a>
+</p>
 
-## IMPORTANT
+## About
 
-This is a new version of [m4tt72/terminal](https://github.com/m4tt72/terminal), which is built with [Svelte](https://svelte.dev/).
+This is a web terminal powered by svelte and forked from [m4tt72/terminal](https://github.com/m4tt72/terminal), please give a star there.
 
-If you are looking for the old version, please check out the [v2 branch](https://github.com/m4tt72/terminal/tree/v2).
+## Usage
 
-The old version is built with [React](https://reactjs.org/), and it is no longer maintained.
+Just type help and have fun with the commands.
 
-Thanks!
+## Development
 
-## Quick Start
-
-### Using docker (recommended)
-
-```bash
-docker run -d --name terminal -p 3000:3000 ghcr.io/m4tt72/terminal
+Make sure you have Docker and Docker Compose installed and just run:
+```sh
+docker compose up -d
 ```
 
-### Using npm/yarn
+## Credits
 
-1. Install dependencies:
+- [Docker](https://github.com/docker)
+- [NodeJS](https://github.com/nodejs)
+- [Svelte](https://github.com/sveltejs/svelte)
+- [m4tt72](https://github.com/m4tt72/terminal)
 
-```bash
-yarn install
-```
+## License
 
-3. Run the server:
-
-```bash
-yarn dev
-```
-
-## Themes
-
-![themes](/docs/screenshot.gif)
-
-[Here's](/docs/themes) a list of available themes.
-
-
-## Contributing
-
-Please feel free to pull requests or log issues.
-
-Thanks!
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=m4tt72/terminal&type=Date)](https://star-history.com/#m4tt72/terminal&Date)
+MIT
