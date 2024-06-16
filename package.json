@@ -1,7 +1,7 @@
 {
   "name": "terminal",
   "private": false,
-  "version": "3.3.2",
+  "version": "3.3.3",
   "type": "module",
   "license": "MIT",
   "author": {
@@ -17,7 +17,8 @@
     "dev": "vite --host 0.0.0.0 --port 3333",
     "build": "vite build",
     "preview": "vite preview",
-    "check": "svelte-check --tsconfig ./tsconfig.json"
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "update-browserlist": "npx update-browserslist-db@latest"
   },
   "dependencies": {
     "ua-parser-js": "^1.0.38"
