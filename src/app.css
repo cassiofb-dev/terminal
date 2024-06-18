@@ -3,12 +3,25 @@
 @tailwind utilities;
 
 @font-face {
+  font-family: 'honchokomono';
+  src: url('/fonts/honchokomono.otf')
+}
+
+@font-face {
+  font-family: 'HackNerdFontMono';
+  src: url('/fonts/HackNerdFontMono.ttf')
+}
+
+@font-face {
   font-family: 'Cascadia Code';
   src: url('/fonts/CascadiaCode.ttf')
 }
 
 * {
-  font-family: 'Cascadia Code', monospace;
+  /* font-family: 'honchokomono', monospace; */
+  font-family: 'HackNerdFontMono', monospace;
+  /* font-family: 'Cascadia Code', monospace; */
+  /* font-family: monospace; */
 }
 
 * {

@@ -42,15 +42,15 @@ const getInfo = () => {
   let message = "";
   message += `${os.name}@${browser.name}\n`
   message += `-------------\n`
-  message += `OS: ${os.name} ${os.version}\n`;
-  message += `Arch: ${cpu.architecture}\n`;
+  message += `OS: ${os.name} ${os.version || 'unknown'}\n`;
+  message += `Arch: ${cpu.architecture || 'unknown'}\n`;
   message += `Host: ${hostname}\n`;
   message += `Packages: ${packages.length + devPackages.length}\n`;
   message += `Theme: ${theme}\n`;
   message += `Terminal: ${terminal}\n`
   message += `Resolution: ${resolution}\n`;
-  message += `Browser: ${browser.name} ${browser.version}\n`;
-  message += `Engine: ${engine.name} ${engine.version}\n`;
+  message += `Browser: ${browser.name} ${browser.version || 'unknown'}\n`;
+  message += `Engine: ${engine.name} ${engine.version || 'unknown'}\n`;
 
   return message;
 };

@@ -10,6 +10,7 @@ import weather from './commands/weather';
 import fastfetch from './commands/fastfetch/fastfetch';
 import install from './commands/install';
 import vi from './commands/vi';
+import cassio from './commands/cassio';
 
 export const commands: Record<string, (args: string[]) => Promise<string> | string> = {
   help: () => 'Available commands: ' + Object.keys(commands).join(', '),
@@ -33,4 +34,5 @@ export const commands: Record<string, (args: string[]) => Promise<string> | stri
   curl,
   banner,
   fastfetch,
+  cassio,
 };
